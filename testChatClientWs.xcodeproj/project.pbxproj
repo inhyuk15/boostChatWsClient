@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6A66142ABA9F17004199B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC6A66132ABA9F17004199B6 /* main.cpp */; };
+		EC6A661F2ABA9FA0004199B6 /* ChatMessageWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC6A661D2ABA9FA0004199B6 /* ChatMessageWrapper.cpp */; };
+		EC6A66242ABAA072004199B6 /* chat.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = EC6A66232ABAA072004199B6 /* chat.pb.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC6A660E2ABA9F17004199B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC6A66102ABA9F17004199B6 /* testChatClientWs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testChatClientWs; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6A66132ABA9F17004199B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EC6A661D2ABA9FA0004199B6 /* ChatMessageWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChatMessageWrapper.cpp; sourceTree = "<group>"; };
+		EC6A661E2ABA9FA0004199B6 /* ChatMessageWrapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ChatMessageWrapper.hpp; sourceTree = "<group>"; };
+		EC6A66212ABA9FF5004199B6 /* .clang-format */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".clang-format"; sourceTree = "<group>"; };
+		EC6A66222ABAA072004199B6 /* chat.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chat.pb.h; sourceTree = "<group>"; };
+		EC6A66232ABAA072004199B6 /* chat.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chat.pb.cc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6A660D2ABA9F17004199B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6A66072ABA9F17004199B6 = {
+			isa = PBXGroup;
+			children = (
+				EC6A66212ABA9FF5004199B6 /* .clang-format */,
+				EC6A66122ABA9F17004199B6 /* testChatClientWs */,
+				EC6A66112ABA9F17004199B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6A66112ABA9F17004199B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6A66102ABA9F17004199B6 /* testChatClientWs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6A66122ABA9F17004199B6 /* testChatClientWs */ = {
+			isa = PBXGroup;
+			children = (
+				EC6A66232ABAA072004199B6 /* chat.pb.cc */,
+				EC6A66222ABAA072004199B6 /* chat.pb.h */,
+				EC6A66132ABA9F17004199B6 /* main.cpp */,
+				EC6A661D2ABA9FA0004199B6 /* ChatMessageWrapper.cpp */,
+				EC6A661E2ABA9FA0004199B6 /* ChatMessageWrapper.hpp */,
+			);
+			path = testChatClientWs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6A660F2ABA9F17004199B6 /* testChatClientWs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6A66172ABA9F17004199B6 /* Build configuration list for PBXNativeTarget "testChatClientWs" */;
+			buildPhases = (
+				EC6A660C2ABA9F17004199B6 /* Sources */,
+				EC6A660D2ABA9F17004199B6 /* Frameworks */,
+				EC6A660E2ABA9F17004199B6 /* CopyFiles */,
+				EC6A66202ABA9FD2004199B6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testChatClientWs;
+			productName = testChatClientWs;
+			productReference = EC6A66102ABA9F17004199B6 /* testChatClientWs */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6A66082ABA9F17004199B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EC6A660F2ABA9F17004199B6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EC6A660B2ABA9F17004199B6 /* Build configuration list for PBXProject "testChatClientWs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6A66072ABA9F17004199B6;
+			productRefGroup = EC6A66112ABA9F17004199B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6A660F2ABA9F17004199B6 /* testChatClientWs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC6A66202ABA9FD2004199B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = " if [ -z \"${SRCROOT}\" ]; then\n    echo \"The SRCROOT build setting must be set\"\n    exit 1\nfi\n\nfind \"${SRCROOT}\" \\( -name '*.h' -or -name '*.cpp' \\) -exec /usr/local/bin/clang-format -i {} \\;\n\n/Users/inhyuk/Documents/github/boost/vcpkg/installed/x64-osx/tools/protobuf/protoc --proto_path=$SRCROOT --cpp_out=$SRCROOT/testChatClientWs $SRCROOT/chat.proto\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6A660C2ABA9F17004199B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6A661F2ABA9FA0004199B6 /* ChatMessageWrapper.cpp in Sources */,
+				EC6A66142ABA9F17004199B6 /* main.cpp in Sources */,
+				EC6A66242ABAA072004199B6 /* chat.pb.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC6A66152ABA9F17004199B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC6A66162ABA9F17004199B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC6A66182ABA9F17004199B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "/Users/inhyuk/Documents/github/boost/vcpkg/installed/x64-osx/include";
+				LIBRARY_SEARCH_PATHS = "/Users/inhyuk/Documents/github/boost/vcpkg/installed/x64-osx/lib";
+				OTHER_LDFLAGS = "-lprotobuf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC6A66192ABA9F17004199B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "/Users/inhyuk/Documents/github/boost/vcpkg/installed/x64-osx/include";
+				LIBRARY_SEARCH_PATHS = "/Users/inhyuk/Documents/github/boost/vcpkg/installed/x64-osx/lib";
+				OTHER_LDFLAGS = "-lprotobuf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6A660B2ABA9F17004199B6 /* Build configuration list for PBXProject "testChatClientWs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6A66152ABA9F17004199B6 /* Debug */,
+				EC6A66162ABA9F17004199B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6A66172ABA9F17004199B6 /* Build configuration list for PBXNativeTarget "testChatClientWs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6A66182ABA9F17004199B6 /* Debug */,
+				EC6A66192ABA9F17004199B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6A66082ABA9F17004199B6 /* Project object */;
+}
